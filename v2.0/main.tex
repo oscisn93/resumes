@@ -1,0 +1,79 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\name{Oscar}{Cisneros}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{ Fullstack Engineer }\end{center}
+\begin{center}
+\enspace \faEnvelope\enspace oscisneros93@gmail.com
+\enspace\faHome\enspace LA Metropolitan Area, CA \\
+\begin{tabular}{ c c c }
+\enspace\faGlobe\enspace \color{blue} \href{https://www.oscarcisneros.dev}{Developer Portfolio} \enspace\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/oscar-c-713b27251/}{in/oscar-c-713b27251} &
+\enspace\faGithub\enspace \color{blue} \href{https://github.com/oscisn93}{github.com/oscisn93}
+\end{tabular}
+\end{center}
+
+\section{Technical Skills}
+
+{\begin{itemize}[label=\textbullet]
+\item \textbf{Languages and Tools:} JavaScript, TypeScript, Python, SQL, Go, Bash, C++, C, PHP, Java, Node.js, Express, React.js, Next.js, Vue.js, MySQL, PostgreSQL, SQLite, MongoDB, DynamoDB, Redis, Firebase, AWS, SST, Infratructure as Code, Docker, Linux Administration, git, Scrum/Agile software
+\end{itemize}}
+
+\section{Professional Experience}
+
+\customcventry{06/2024 ‐ Present}{{\color{blue}\href{https://thelastmile.org}{(The Last Mile)}}}{Web Development Remote Instructor}{Remote}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Delivered instruction to multiple classrooms, tracking various outcomes and recording data from each session to integrate into a data-driven instruction model
+\item Cooordinated with multiple cross-functional teams in order to improve the curriculum materials, lesson plans, and supplemental materials meant to teach fundamental web development concepts and advanced fullstack development techniques.
+\item Designed and developed multiple supplemental JavaScript projects that enhanced both the curriculum materials and the lesson plans and integrated them into the remote instruction materials through a continuous development/ continuous integration process.
+\item Automated routine tasks and enhanced project run/debug processes through custom npm, python, and Bash scripts that were integrated into the RI workflow and served as a highly available teammate, willingly jumping on calls to help troubleshoot throughout my availabilities and even outside of them at times.
+\end{itemize}}}
+
+\customcventry{05/2023 ‐ 8/2023}{{\color{blue}\href{https://graduateschool.usc.edu/wp-content/uploads/2023/02/JumpStart-Brochure-Summer-Community-College.pdf}{(Undergraduate Researcher)}}}{University of Southern California}{Los Angeles, CA}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Utilized Python, Bash scripts, and Jupyter notebooks in order to analyze multiple large metagenomic datasets on the basis of name and compared with analysis based on sequence alignment and presented findings to a nontechnical audience
+\item Perfomed big data analysis on a high performance computing cluster node. Utilizing the SLURM job scheduling tool in order to efficiently run computing jobs in a collaborative research environment
+\end{itemize}}}
+
+\customcventry{01/2023 ‐ 05/2023}{{\color{blue}\href{https://aws.amazon.com/}{(Amazon Collaborative Fellowship)}}}{Software Development Researcher,}{Fullerton, CA}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Employed socially responsible design principles to the software development process resulting in an inclusive software application that addresses a social justice need and integrates feedback from interviews with potential stakeholders
+\item Implemented authentication for a progressive web app that uses next.js and clerk.js. Developed a geolocation API for the finding healthcare providers that were used by the frontend in tandem with the MapboxGLS.js library
+\item Co-developed and presented a pitch that successfully articulated the application's social impact and technical innovation, securing 2nd place in the CSUF Engineering \& Social Justice competition and demonstrating effective stakeholder communication
+\end{itemize}}}
+
+\section{Professional Development}
+\customcventry{2022-2024}{\color{blue}\href{https://www.acmcsuf.com/}{Chapter at CSUF}}{Association for Computing Machinery}{Fullerton, CA}{}{ Development Team Project Manager, Open Source Software Team Officer, Development Team Officer}
+\customcventry{2023-2024}{\color{blue}\href{https://fullyhacks.acmcsuf.com/}{Annual Hackathon at CSUF}}{Fullyhacks}{Fullerton, CA}{}{Organizer, Operations Officer, Workshop Lead}
+
+\section{Education}
+\customcventry{2020-2024}{\color{blue}\href{https://www.fullerton.edu/}{California State University, Fullerton}}{B.S. Computer Science}{Fullerton, CA}
+\end{document}
